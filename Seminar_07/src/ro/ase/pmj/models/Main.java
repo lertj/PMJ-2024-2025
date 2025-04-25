@@ -18,8 +18,8 @@ public class Main {
 		System.out.println(ts.startTask(1,3));
 		
 		TaskStudable studable = (x, y) -> {
-			int z = x-y;
-			return z;
+			int result = x-y;
+			return result;
 			};
 			
 		System.out.println(studable.startTask(5, 3));
@@ -41,7 +41,22 @@ public class Main {
 		System.out.println(Character.BYTES);
 		System.out.println(Float.BYTES);
 		System.out.println(Byte.BYTES);
-		
+
+//		TaskStudable studable2 = (x, y) -> {
+//			int z = x+y;
+//			return z;
+//		};
+//
+//		if(x%2==0){
+//			TaskStudable studable3 = studable;
+//		} else{
+//			TaskStudable studable3 = studable2;
+//		}
+
+		TaskStudable studable3 = (x, y) -> {
+			int z = x-y;
+			return z;
+		};
 
 	}
 
