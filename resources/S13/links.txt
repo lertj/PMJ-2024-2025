@@ -1,0 +1,26 @@
+https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc/3.49.1.0
+
+https://sqlitebrowser.org/dl/
+
+https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.9-signed.msi
+
+https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync/5.5.0
+
+https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver/3.12.14
+
+<dependencies>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-bom</artifactId>
+            <version>5.5.0</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+    </dependencies>
